@@ -1,0 +1,158 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  margin: 0px auto;
+  top: 0;
+}
+
+/* header part  */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 0;
+}
+
+/* nav-bar items  */
+.items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  color: black;
+  width: 520px;
+}
+
+.items li {
+  font-size: 20px;
+  color: rgb(42, 43, 46);
+  align-items: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.settings {
+  display: flex;
+  flex-direction: row;
+  width: 120px;
+  justify-content: space-evenly;
+  width: 160px;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.setting-text {
+  line-height: 0;
+  width: 100px;
+}
+
+.setting-text p {
+  font-family: bold;
+  
+}
+
+/* location logo item */
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.mat-icon {
+  margin-right: 8px;
+  font-size: 24px;
+  padding-right: 0px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-right: 340px;
+  margin-bottom: 0;
+}
+
+.logo img {
+  display: block;
+  width: 100px;
+  height: 90px;
+}
+
+/* hover  */
+
+.items li {
+  position: relative;
+  cursor: pointer;
+}
+
+.items li:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 105%;
+  height: 5px;
+  background-color: rgb(248, 163, 4);
+  border-radius: 20px;
+  font-weight: 200 bold;
+}
+.slider-container {
+  position: relative;
+  display: inline-block;
+}
+
+.slider-text {
+  position: absolute;
+  top: 35%; 
+  left: 30%; 
+  transform: translate(-50%, -50%);
+  color:white;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  line-height:0.6;
+}
+
+.slider-text .s-01{
+  font-size:35px;
+  font-weight:bold;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+.slider-text .s-02{
+  font-size:35px;
+  font-weight:bold;
+ 
+}
+
+.input-on-slider{
+  padding:12px 230px 12px 230px;
+  border: 2px ;
+  border-radius: 10px;
+
+
+
+}
+
+
