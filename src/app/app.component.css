@@ -1,0 +1,285 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  margin: 0px auto;
+  top: 0;
+}
+
+/* header part  */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 0;
+}
+
+/* nav-bar items  */
+.items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  color: black;
+  width: 520px;
+}
+
+.items li {
+  font-size: 20px;
+  color: rgb(42, 43, 46);
+  align-items: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.settings {
+  display: flex;
+  flex-direction: row;
+  width: 120px;
+  justify-content: space-evenly;
+  width: 160px;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.setting-text {
+  line-height: 0;
+  width: 100px;
+}
+
+.setting-text p {
+  font-family: bold;
+}
+
+/* location logo item */
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.mat-icon {
+  margin-right: 8px;
+  font-size: 24px;
+  padding-right: 0px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-right: 340px;
+  margin-bottom: 0;
+}
+
+.logo img {
+  display: block;
+  width: 100px;
+  height: 90px;
+}
+
+/* hover  */
+
+.items li {
+  position: relative;
+  cursor: pointer;
+}
+
+.items li:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 105%;
+  height: 5px;
+  background-color: rgb(248, 163, 4);
+  border-radius: 20px;
+  font-weight: 200 bold;
+}
+.slider-container {
+  position: relative;
+  display: inline-block;
+}
+
+.slider-text {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  line-height: 0.6;
+}
+
+.slider-text .s-01 {
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+.slider-text .s-02 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.input-on-slider {
+  padding: 12px 230px 12px 230px;
+  border: 2px;
+  border-radius: 10px;
+}
+
+/* brand logos */
+
+.brand-boxes ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  height: 80px;
+}
+.brand-boxes li {
+  width: 80px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+.brand-boxes img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.brand-boxes {
+  padding: 10px;
+  margin: 0 auto;
+}
+.brand-boxes ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.brand-boxes li {
+  flex: 0 0 auto;
+  height: 50px;
+  margin: 0 10px;
+  padding: 0;
+}
+.brand-boxes .maruti img {
+  max-width: 60px;
+  max-height: 80px;
+  object-fit: contain;
+}
+.brand-boxes .brand-bg {
+  position: relative;
+  padding: 16px 8px 16px 8px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 6px solid; */
+  border-radius: 20px;
+}
+
+.brand-boxes .brand-bg p {
+  padding: 0px 20px;
+}
+.brand {
+  position: relative;
+  background-color: rgb(255, 167, 5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 6px solid; */
+  border-radius: 20px;
+  width: 200px;
+  height: 70px;
+}
+.brand p {
+  color: white;
+  font-weight: 2px bold;
+  font-size: 20px;
+}
+.align-boxes {
+  margin-left: -326px;
+  margin-top: 20px;
+}
+
+.i-text {
+  margin-top: 20px;
+}
+.s-text {
+  margin-top: 40px;
+}
+
+/* need */
+.need-a-car {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px; /* Add margin as needed */
+  margin-top: 80px;
+}
+
+.blue-box {
+  position: relative;
+  background-color: rgb(55, 92, 211);
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.blue-box img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 90px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.fuel {
+  position: relative;
+  border: 2px  ;
+  border-radius: 10px;
+}
+
+.fuel img {
+  width: 340px;
+  height: 300px;
+}
+
+.exchange-bonus {
+  position: relative;
+  border-radius: 10px;
+}
+
+.exchange-bonus img {
+  width: 340px;
+  height: 300px;
+}
+
