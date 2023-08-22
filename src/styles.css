@@ -28,6 +28,7 @@ body {
     padding-bottom: 0;
     background-color: white;
     z-index: 1000;}
+    
 
 /* nav-bar items  */
 .items {
@@ -115,23 +116,32 @@ body {
   font-weight: 200 bold;
 }
 .slider-container {
- 
+  position: relative;
+  right: 200px;
+  width: 800px;
+}
+.slider-container img {
+  width: 1629px;
+  overflow: hidden;
 }
 
 .slider-text {
   position: absolute;
-  top: 35%;
-  left: 0;
+
   transform: translate(-50%, -50%);
   color: white;
   padding: 10px;
-  text-align: center;
+
   font-size: 18px;
   border-radius: 5px;
 
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  margin-top: 80px;
+
+  top: 28%;
+  left: 600px;
 }
 
 .slider-text .s-01 {
@@ -157,7 +167,7 @@ body {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+ 
   width: 100px;
   height: 80px;
 }
@@ -226,8 +236,8 @@ body {
   font-size: 20px;
 }
 .align-boxes {
-  margin-left: -326px;
-  margin-top: 20px;
+ position: absolute;
+    left: 0;
 }
 
 .i-text {
@@ -250,7 +260,7 @@ body {
 .blue-box {
   position: relative;
   background-color: rgb(55, 92, 211);
-  width: 400px;
+  width: 300px;
   height: 300px;
   border-radius: 10px;
 }
@@ -266,13 +276,14 @@ body {
 
 .fuel {
   position: relative;
-  border: 2px;
-  border-radius: 10px;
+  
+
 }
 
 .fuel img {
   width: 340px;
   height: 300px;
+  border-radius: 10px;
 }
 
 .exchange-bonus {
@@ -350,6 +361,7 @@ justify-content: space-evenly;
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
+margin-top: 60px;
 }
 
 .info-card {
@@ -532,7 +544,7 @@ a {
 .col-md-3 {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 60px;
 }
 .container {
   margin-top: 50px
@@ -701,4 +713,32 @@ h3 {
 .footer   {
 display: flex;
 justify-content: space-evenly;
-align-items: flex-start;}
+align-items: flex-start;
+}
+#why-buy-from-us-text {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+}
+#why-buy-from-us-text-01 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+}
+#home {
+  margin-bottom: 40px;
+
+}
+
+.image-text-container-01{
+  display: flex;
+      flex-direction: column;
+  }
+  .h-drives{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-bottom:40px;
+  }
