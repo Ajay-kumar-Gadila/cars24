@@ -12,6 +12,8 @@ import { RecentlyAddedCarsComponent } from './recently-added-cars/recently-added
 import { AcrossComponent } from './across/across.component';
 import { HappyDirvingComponent } from './happy-dirving/happy-dirving.component';
 import { CarsNewsComponent } from './cars-news/cars-news.component';
+import { CarSellingComponent } from './car-selling/car-selling.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -23,7 +25,9 @@ import { CarsNewsComponent } from './cars-news/cars-news.component';
     RecentlyAddedCarsComponent,
     AcrossComponent,
     HappyDirvingComponent,
-    CarsNewsComponent
+    CarsNewsComponent,
+    CarSellingComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

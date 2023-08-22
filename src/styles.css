@@ -1,13 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-  margin: 0;
+ 
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 .container {
   padding: 0 1em;
-  max-width: 100%;
-  margin: 0 auto;
+  max-width: 120%;
+ 
 }
 
 .main {
@@ -18,12 +18,16 @@ body {
 }
 
 /* header part  */
-.header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-bottom: 0;
-}
+.header{position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 0;
+    background-color: white;
+    z-index: 1000;}
 
 /* nav-bar items  */
 .items {
@@ -111,14 +115,13 @@ body {
   font-weight: 200 bold;
 }
 .slider-container {
-  position: relative;
-  display: inline-block;
+ 
 }
 
 .slider-text {
   position: absolute;
   top: 35%;
-  left: 30%;
+  left: 0;
   transform: translate(-50%, -50%);
   color: white;
   padding: 10px;
@@ -351,26 +354,26 @@ justify-content: space-evenly;
 
 .info-card {
 background-color: whitesmoke;
-width: 280px;
+width: 240px;
 padding-bottom: 8px;
 
 border-radius: 10px;
 }
 
 .info-card img {
-width: 280px;
+width: 240px;
 height: 110px;
 }
 
 .info-card-title {
 margin-left: 10px;
-line-height: 0.5;
+/* line-height: 0.5; */
 margin-top: 20px;
 }
 
 .info-card-content {
 margin-left: 10px;
-line-height: 0.5;
+/* line-height: 0.5; */
 }
 
 .info-card-content p {
@@ -642,3 +645,60 @@ a {
   font-weight: 800;
   margin-left: 10px;
 }
+
+
+.cars-sell{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.car-selling h3 {
+  font-weight: 900;
+  font-size: 44px;
+  color: #0059a3;
+}
+.car-selling #cars {
+  font-size: 20px;
+line-height: 28px;
+color: #465166;
+} 
+.get-car-price {
+  max-width:250px;
+  background-color: orange;
+  color:white;
+  padding: 10px 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+
+}
+
+
+footer {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.icons {
+  margin-bottom: 20px;
+}
+
+.useful-link,
+.popular-search,
+.othergeographies {
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: top;
+}
+
+h3 {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.footer   {
+display: flex;
+justify-content: space-evenly;
+align-items: flex-start;}
